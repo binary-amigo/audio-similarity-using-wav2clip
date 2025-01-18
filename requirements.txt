@@ -1,0 +1,9 @@
+streamlit
+requests
+streamlit-webrtc
+numpy
+soundfile
+Flask
+wav2clip
+librosa
+scikit-learn
