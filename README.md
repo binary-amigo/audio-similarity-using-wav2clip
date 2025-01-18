@@ -1,6 +1,3 @@
-Here's the complete `README.md` content with proper markdown formatting:
-
-```markdown
 # Audio Similarity Web App
 
 This project provides a web application to analyze and compare audio files based on their similarity. It combines a Streamlit-based front-end (`app.py`) with a Flask-powered back-end (`model.py`).
@@ -13,7 +10,6 @@ This project provides a web application to analyze and compare audio files based
 - **Interactive UI**: Built with Streamlit for a user-friendly experience.
 - **API Integration**: Flask handles back-end logic for computing similarity.
 
----
 
 ## Project Structure
 
