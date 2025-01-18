@@ -16,6 +16,7 @@ This project provides a web application to analyze and compare audio files based
 ```plaintext
 .
 ├── app.py             # Streamlit front-end
+├── audio_database     # Folder to store reference audios
 ├── model.py           # Flask back-end
 ├── requirements.txt   # Dependencies for the project
 └── README.md          # Project documentation
@@ -41,6 +42,10 @@ Ensure Python 3.8 or later is installed. Install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
+
+### Step 3: Add Reference Audios
+
+Place some reference audio files in the `audio_database` folder for similarity comparison.
 
 ---
 
@@ -84,8 +89,8 @@ Example request:
 
 ```json
 {
-  "embedding1": [...],
-  "embedding2": [...]
+    "embedding1": [...],
+    "embedding2": [...]
 }
 ```
 
@@ -106,28 +111,3 @@ The following libraries are required for the project:
 - `scikit-learn` - For calculating cosine similarity.
 
 Install them all using the `requirements.txt` file.
-
----
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have ideas for improvement, feel free to submit a pull request or open an issue.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-## Screenshots
-
-Add screenshots of your app's interface to make the README more engaging!
-
----
-
-Happy Coding! 🎧
-```
-
-This README is formatted to be engaging and informative, covering all the necessary details for users and contributors. Add screenshots to the "Screenshots" section to visually enhance the document.
