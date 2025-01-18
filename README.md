@@ -31,8 +31,8 @@ Follow these steps to set up and run the application:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <repository_url>
-cd <repository_folder>
+git clone https://github.com/binary-amigo/audio-similarity-using-wav2clip.git
+cd audio-similarity-using-wav2clip
 ```
 
 ### Step 2: Install Dependencies
